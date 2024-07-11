@@ -49,8 +49,7 @@ public class Book {
                 "id=" + id +
                 ", Bookname='" + Bookname + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
-                '}';
+                ", authors=" + authors + '}';
     }
 
     public Long getId() {

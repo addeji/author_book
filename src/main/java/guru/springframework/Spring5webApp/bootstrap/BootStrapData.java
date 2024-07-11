@@ -64,7 +64,7 @@ public class BootStrapData implements CommandLineRunner {
         publisherRepository.save(publishers);
 
         Publishers publisher = new Publishers();
-        publisher.setPublisherName("Ea");
+        publisher.setPublisherName("EA");
         publisher.setAddressline1("ikeja,mainland ,lagos");
         publisher.setCity("Lagos");
         publisher.setZip("100001");

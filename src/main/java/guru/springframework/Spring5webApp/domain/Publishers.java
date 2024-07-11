@@ -96,8 +96,7 @@ public class Publishers {
                 ", PublisherName='" + PublisherName + '\'' +
                 ", addressline1='" + addressline1 + '\'' +
                 ", city='" + city + '\'' +
-                ", zip='" + zip + '\'' +
-                '}';
+                ", zip='" + zip + '\'' + '}';
     }
 
     @Override

@@ -43,7 +43,6 @@ public class Book {
     public void setPublishers(Publishers publishers) {
         this.publishers = publishers;
     }
-
     @Override
     public String toString() {
         return "Book{" +

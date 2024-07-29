@@ -1,5 +1,6 @@
 package guru.springframework.Spring5webApp.domain;
 
+import guru.springframework.Spring5webApp.repositories.BookRepository;
 import jakarta.persistence.*;
 
 import java.util.HashSet;
@@ -7,7 +8,7 @@ import java.util.Objects;
 import java.util.Set;
 
 
-@Entity
+@Entity(name = "book")
 public class Book {
 
 
@@ -48,8 +49,7 @@ public class Book {
         return "Book{" +
                 "id=" + id +
                 ", Bookname='" + Bookname + '\'' +
-                ", isbn='" + isbn + '\'' +
-                ", authors=" + authors + '}';
+                ", isbn='" + isbn + '\'' +'}';
     }
 
     public Long getId() {
@@ -97,4 +97,6 @@ public class Book {
     public int hashCode() {
         return Objects.hashCode(id);
     }
+    
+
 }
